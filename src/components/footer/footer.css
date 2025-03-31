@@ -1,13 +1,17 @@
-.outer-container {
+/* Footer Component Styles */
+.outer_container {
     background-color: #111;
     color: grey;
     display: flex;
     justify-content: center;
+    padding: 2rem 0;
+    border-top: 8px solid #222;
 }
 
 .inner-container {
     width: 60%;
-    padding: 20px 0;
+        margin-top: 15vh;
+    
 }
 
 .footer-icons {
@@ -15,43 +19,51 @@
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-    color: #fff;
-    margin-bottom: 20px;
+    
+    color: white;
 }
 
 .footer-data {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    
 }
 
 .footer-data ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: space-around;
+    height: 12vh;
+     padding: 0;
+    margin: 0;
+    
+}
+.footer-data ul li {
     cursor: pointer;
+     margin-bottom: 0.5rem;
+    font-size: 0.8rem; 
 }
 
-.footer-data ul li {
-    font-size: 14px;
-    color: grey;
-    line-height: 1.5;
+.footer-data li:hover {
+    text-decoration: underline;
 }
 
 .service-code {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #fff 1px solid;
+    border: 1px solid #fff;
     width: 10%;
     margin: 10px 0;
-    padding: 5px;
+   
     cursor: pointer;
-    font-size: 14px;
+    
 }
+
 
 .copy-write {
     font-size: 12px;
     margin-bottom: 10px;
+    color: grey;
 }
